@@ -1,0 +1,137 @@
+{
+    "frames": {
+        "stone00": {
+            "frame": { "x": 0, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone16": {
+            "frame": { "x": 16, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone32": {
+            "frame": { "x": 32, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone48": {
+            "frame": { "x": 48, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone64": {
+            "frame": { "x": 64, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone80": {
+            "frame": { "x": 80, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "stone96": {
+            "frame": { "x": 96, "y": 0, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+
+        "copper00": {
+            "frame": { "x": 0, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper16": {
+            "frame": { "x": 16, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper32": {
+            "frame": { "x": 32, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper48": {
+            "frame": { "x": 48, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper64": {
+            "frame": { "x": 64, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper80": {
+            "frame": { "x": 80, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "copper96": {
+            "frame": { "x": 96, "y": 16, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+
+        "silver00": {
+            "frame": { "x": 0, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver16": {
+            "frame": { "x": 16, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver32": {
+            "frame": { "x": 32, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver48": {
+            "frame": { "x": 48, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver64": {
+            "frame": { "x": 64, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver80": {
+            "frame": { "x": 80, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "silver96": {
+            "frame": { "x": 96, "y": 32, "w": 16, "h": 16 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        }
+    },
+    "meta": {
+        "version": "1.0",
+        "image": "ores.png",
+        "format": "RGBA8888"
+    }
+}
