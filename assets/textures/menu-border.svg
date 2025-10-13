@@ -8,8 +8,8 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
-   sodipodi:docname="menu.svg"
-   inkscape:export-filename="menu.png"
+   sodipodi:docname="menu-border.svg"
+   inkscape:export-filename="menu-border.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.7333333"
-     inkscape:cx="217.78846"
-     inkscape:cy="99.230769"
+     inkscape:cx="171.92308"
+     inkscape:cy="303.46154"
      inkscape:window-width="1728"
      inkscape:window-height="1027"
      inkscape:window-x="0"
-     inkscape:window-y="62"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
   <g
@@ -42,11 +42,11 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#010a10;fill-opacity:1;stroke:none;stroke-width:1.32291667;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b8860b;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect1"
        width="126.99999"
        height="127.00001"
-       x="7.6293945e-06"
+       x="0"
        y="0" />
   </g>
 </svg>
