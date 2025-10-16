@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.86666667"
-     inkscape:cx="500.19231"
-     inkscape:cy="249.80769"
+     inkscape:cx="867.11538"
+     inkscape:cy="217.5"
      inkscape:window-width="2320"
      inkscape:window-height="1278"
      inkscape:window-x="906"
-     inkscape:window-y="80"
+     inkscape:window-y="52"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g64" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <filter
@@ -2735,6 +2735,44 @@
          in2="comp1"
          id="feComposite212-3" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter188-8"
+       x="-0.12873095"
+       y="-0.39538773"
+       width="1.2574619"
+       height="4.4904371">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         id="feFlood187-3" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="1.000000"
+         id="feGaussianBlur187-9" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="20.000000"
+         id="feOffset187-0" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite187-5" />
+      <feComposite
+         result="comp2"
+         operator="atop"
+         in="comp1"
+         in2="comp1"
+         id="feComposite188-2" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -3029,6 +3067,27 @@
       <ellipse
          style="fill:#0f80ff;fill-opacity:1;stroke:#000000;stroke-width:1.05834;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
          id="path1-76-3-6-6-2"
+         cx="16.933334"
+         cy="39.266575"
+         inkscape:label="body"
+         rx="12.170832"
+         ry="12.170828" />
+    </g>
+    <g
+       id="g224-3"
+       style="fill:#0f80ff;fill-opacity:1"
+       transform="translate(59.285404,52.808413)">
+      <ellipse
+         style="fill:#0f80ff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter188-8)"
+         id="path1-7-0-6-10-9-9-7"
+         cx="16.933334"
+         cy="39.266575"
+         rx="11.377082"
+         ry="3.7041678"
+         inkscape:label="shadow" />
+      <ellipse
+         style="fill:#0f80ff;fill-opacity:1;stroke:#000000;stroke-width:1.05834;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path1-76-3-6-6-2-902"
          cx="16.933334"
          cy="39.266575"
          inkscape:label="body"
@@ -3631,117 +3690,56 @@
          id="tspan31" /></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#1eff00;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-opacity:1"
-       x="-65.779472"
-       y="159.61545"
+       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-opacity:1"
+       x="-68.576607"
+       y="177.28148"
        id="text30-5"><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="159.61545"
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="177.28148"
          id="tspan33-5"><tspan
            id="tspan34-4"
-           style="stroke-width:1.32292"
+           style="fill:#000000;stroke-width:1.32292"
            dx="0.30528846">Filters -&gt; </tspan></tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="163.5842"
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="181.25023"
          id="tspan35-4"><tspan
-   style="stroke-width:1.32292"
+   style="fill:#000000;stroke-width:1.32292"
    id="tspan36-3"
    dx="0 0 0 0 0 0 0 0 0 0 0 -0.45793268">Shadows and </tspan>Glows  -&gt;</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="167.55295"
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="185.21898"
          id="tspan32-8">Drop Shadow... -&gt;</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="171.5217"
-         id="tspan76">  y: 0, 16, 32, ...</tspan><tspan
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="189.18773"
+         id="tspan38-4">  first set all the shadows to blur 0 and the offsets you want</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="175.49045"
-         id="tspan37-2">  Blur 2, 1.7, 1.4</tspan><tspan
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="193.15648"
+         id="tspan44">then add them all and align the grouped objects using the bottom</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="179.4592"
-         id="tspan39-2">  Horizontal 0</tspan><tspan
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="197.12523"
+         id="tspan45">then remove them and add again using blur determined by what it should be at the start and end</tspan><tspan
          sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="183.42795"
-         id="tspan40-6">  Vertical 40, 36, 32,</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="187.3967"
-         id="tspan38-4">  Shadow type Outer cutout</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="-65.779472"
-         y="191.36545"
+         style="fill:#000000;stroke-width:1.32292"
+         x="-68.576607"
+         y="201.09398"
          id="tspan31-0" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#1eff00;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-opacity:1"
-       x="13.300971"
-       y="171.00926"
-       id="text30-5-5"><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="171.00926"
-         id="tspan31-0-9">Filters -&gt; </tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="174.97801"
-         id="tspan107">Shadows and Glows  -&gt;</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="178.94676"
-         id="tspan108">Drop Shadow... -&gt;</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="182.91551"
-         id="tspan109">  y: 0, 16, 32, ...</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="186.88426"
-         id="tspan110">  Blur 2.6-0.2per</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="190.85301"
-         id="tspan111">  Horizontal 0</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="194.82176"
-         id="tspan112">  Vertical 32-4per,</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="198.79051"
-         id="tspan113">  Shadow type Outer cutout</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:1.32292"
-         x="13.300971"
-         y="202.75926"
-         id="tspan114" /></text>
     <ellipse
-       style="fill:#0f80ff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0f80ff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="path224"
-       cx="318.7211"
-       cy="117.23076"
+       cx="170.35092"
+       cy="101.66105"
        rx="20.454325"
        ry="11.60096" />
   </g>
