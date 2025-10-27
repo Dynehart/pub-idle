@@ -1,0 +1,34 @@
+{
+    "frames": {
+        "strength": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 160
+            }
+        },
+        "endurance": {
+            "frame": {
+                "x": 160,
+                "y": 0,
+                "w": 160,
+                "h": 160
+            }
+        },
+        "agility": {
+            "frame": {
+                "x": 320,
+                "y": 0,
+                "w": 160,
+                "h": 160
+            }
+        }
+    },
+    "meta": {
+        "app": "sprite-sheet-to-json",
+        "version": "1.0.0",
+        "image": "drops.png",
+        "format": "RGBA8888"
+    }
+}
