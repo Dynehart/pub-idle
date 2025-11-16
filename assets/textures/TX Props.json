@@ -1,0 +1,21 @@
+{
+    "frames": {
+        "rune_o": {
+            "frame": { "x": 328, "y": 264, "w": 8, "h": 8 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        },
+        "portal": {
+            "frame": { "x": 352, "y": 264, "w": 96, "h": 96 },
+            "rotated": false,
+            "trimmed": false,
+            "pivot": { "x": 0.5, "y": 0.5 }
+        }
+    },
+    "meta": {
+        "version": "1.0",
+        "image": "TX Props.png",
+        "format": "RGBA8888"
+    }
+}
